@@ -3,11 +3,9 @@
   "source": "src/index.html",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html --open --port 7777",
-    "build": "parcel build src/index.js",
-    "posthtml": "posthtml -o output.html -i input.html -c config.json"
+    "build": "parcel build src/index.js"
   },
   "keywords": [],
   "author": "",
