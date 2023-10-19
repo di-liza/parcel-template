@@ -3,8 +3,6 @@
   "source": "src/index.html",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/module.js",
-  "module": "dist/module.js",
   "scripts": {
     "dev": "parcel src/index.html --open --port 7777",
     "build": "parcel build src/index.html"
