@@ -1,7 +1,7 @@
 # Parcel Template
-
-<img src="./src/icons/icons-box.png" alt="Logo" width="80" height="80">
-
+<div align="center">
+<img src="./src/icons/icons-box.png" alt="Logo" width="300" height="300">
+</div>
 A simple web development template built using Parcel, with support for SASS, PostHTML, and more. This template is designed to provide you with a convenient starting point for your web development projects.
 
 ## Getting Started
