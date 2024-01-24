@@ -9,14 +9,30 @@ A simple web development template built using Parcel, with support for SASS, Pos
 To begin using this template, follow these steps:
 
 1. Clone this repository or use it as a template for your own project.
+   
+2. Open Git Bash.
+   
+3. Change the current working directory to your local project.
+   
+4. Change your remote's URL from SSH to HTTPS with the git remote set-url command.
+   
+```sh
+  git remote set-url origin https://github.com/OWNER/REPOSITORY.git
+```
 
-2. Install the project dependencies by running the following command in your terminal:
+5. Verify that the remote URL has changed.
+
+```sh
+  git remote -v
+```
+
+6. Install the project dependencies by running the following command in your terminal:
 
 ```sh
   npm install
 ```
 
-4. Start the development server with live reloading:
+7. Start the development server with live reloading:
 
 ```sh
    npm run dev
@@ -24,7 +40,7 @@ To begin using this template, follow these steps:
 
 This will launch the development server at [http://localhost:7777](http://localhost:7777).
 
-4. To build your project for production, use the following command:
+8. To build your project for production, use the following command:
 
 ```sh
    npm run build
